@@ -377,7 +377,7 @@ class TagprotectPlugin(b3.plugin.Plugin):
             return
       
         
-        if input[0] == 'on':
+        if input[0] == 'on':                                //????? 0-> on
 
             if self._pluginactived != 'on':
 
@@ -392,7 +392,7 @@ class TagprotectPlugin(b3.plugin.Plugin):
 
                 return False
 
-        if input[0] == 'off':
+        if input[0] == 'off':                               //????? 0-> off
 
             if self._pluginactived != 'off':
 
@@ -409,7 +409,7 @@ class TagprotectPlugin(b3.plugin.Plugin):
 
         if input[0] == 'ban':
 
-            if input[1] == 'yes':
+            if input[1] == 'yes':                           //????? 1->yes
 
                 if self._banactived != 'yes':
 
@@ -424,7 +424,7 @@ class TagprotectPlugin(b3.plugin.Plugin):
 
                     return False
 
-            elif input[1] == 'no':
+            elif input[1] == 'no':                          //????? 1->no
                 
                 if self._banactived != 'no':
 
